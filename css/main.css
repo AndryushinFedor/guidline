@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    padding: 5%;
+}
+
+main {
+    padding-left: 20%;
+}
+
+.logo {
+    width: 30%
+}
+
+.container {
+    padding-top: 50px;
+    margin: 0 10%;
+}
+
+#s1 img {
+    width: 55%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: 40%;
+    margin: 20px 20px 20px 0;
+    font-size: 8vw;
+}
+
+.item img {
+    width: 100%;
+}
